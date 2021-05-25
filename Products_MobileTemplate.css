@@ -1,0 +1,31 @@
+
+    /* rgba(0,0,0,0.8);  or 0.918*/ /*Default shade for transparency to use 
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        When configuring for sites the resolution is flipped, main first, second value last
+    
+    */
+    
+/*Mobile Resolutions*/
+@media only screen and (max-device-width: 830px)
+
+
+/*Tablet Resolutions*/
+@media only screen and (max-device-width: 831px)
+
+
+/*DeskTop Resolutions*/
+@media only screen and (min-width: 1280px)
+
+
+
+@media only screen and (min-width: 1920px)
+
+
+
+@media only screen and (min-width: 1948px)
+
+
+/*1440P Resolution*/
+@media only screen and (max-device-width: 2560px)

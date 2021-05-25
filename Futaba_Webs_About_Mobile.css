@@ -1,0 +1,2097 @@
+
+    /* rgba(0,0,0,0.8);  or 0.918*/ /*Default shade for transparency to use 
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        When configuring for sites the resolution is flipped, main first, second value last
+    
+    */
+    
+
+
+/*Mobile Resolutions*/
+@media only screen and (max-device-width: 831px) /*831*/
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: -280px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 832px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 50px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 0px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 828px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Your\ Journey\ begins.png);
+        background-size: 210px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        background-position-x: -5px;
+        background-size: 160px;
+        background-image: url(Futaba4.jpg);
+    }
+
+    #Header1
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 40px;
+        right: 210px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #Header1:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+    #Header2
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header2:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+    #Header3
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 860px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header3:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+
+    #Header4
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1150px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header4:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+    #Header5
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1590px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header5:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+   
+    #Paragraph1
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 160px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph1:hover
+    {
+        color: violet;
+        font-size: 25.5px;
+    }
+
+    #Paragraph2
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 910px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph2:hover
+    {
+        color: violet;
+        font-size: 25.2px;
+    }
+
+    #Paragraph3
+    {
+        position: absolute;
+  
+        color: purple;
+
+        right: 10px;
+        top: 1210px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph3:hover
+    {
+        color: violet;
+        font-size: 25.1px;
+    }
+
+    #Paragraph4
+    {
+        position: absolute;
+ 
+        color: purple;
+
+        right: 10px;
+        top: 1640px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 23px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph4:hover
+    {
+        color: violet;
+        font-size: 23.5px;
+    }
+   
+
+    #Image1
+    {
+        position: absolute;
+
+        right: 58px;
+        top: 430px;
+    } 
+
+    .Image11
+    {
+        height: 400px;
+        transition: 0.6s ease;
+    }
+
+    .Image11:hover 
+    {
+        height: 410px;
+    }
+
+
+}
+
+/*DeskTop Resolutions*/
+@media only screen and (min-width: 852px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: -80px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 1022px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 50px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 100px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 828px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Your\ Journey\ begins.png);
+        background-size: 210px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        background-position-x: -5px;
+        background-size: 160px;
+        background-image: url(Futaba4.jpg);
+    }
+
+    #Header1
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 40px;
+        right: 210px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #Header1:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+    #Header2
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header2:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+    #Header3
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 860px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header3:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+
+    #Header4
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1150px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header4:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+    #Header5
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1590px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header5:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+   
+    #Paragraph1
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 160px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph1:hover
+    {
+        color: violet;
+        font-size: 25.5px;
+    }
+
+    #Paragraph2
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 910px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph2:hover
+    {
+        color: violet;
+        font-size: 25.2px;
+    }
+
+    #Paragraph3
+    {
+        position: absolute;
+  
+        color: purple;
+
+        right: 10px;
+        top: 1210px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph3:hover
+    {
+        color: violet;
+        font-size: 25.1px;
+    }
+
+    #Paragraph4
+    {
+        position: absolute;
+ 
+        color: purple;
+
+        right: 10px;
+        top: 1640px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 23px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph4:hover
+    {
+        color: violet;
+        font-size: 23.5px;
+    }
+   
+
+    #Image1
+    {
+        position: absolute;
+
+        right: 58px;
+        top: 430px;
+    } 
+
+    .Image11
+    {
+        height: 400px;
+        transition: 0.6s ease;
+    }
+
+    .Image11:hover 
+    {
+        height: 410px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1280px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 400px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 1519px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 100px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 335px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 828px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Your\ Journey\ begins.png);
+        background-size: 210px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        background-position-x: -5px;
+        background-size: 160px;
+        background-image: url(Futaba4.jpg);
+    }
+
+    #Header1
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 40px;
+        right: 210px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #Header1:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+    #Header2
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header2:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+    #Header3
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 860px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header3:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+
+    #Header4
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1150px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header4:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+    #Header5
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1590px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header5:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+   
+    #Paragraph1
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 160px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph1:hover
+    {
+        color: violet;
+        font-size: 25.5px;
+    }
+
+    #Paragraph2
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 910px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph2:hover
+    {
+        color: violet;
+        font-size: 25.2px;
+    }
+
+    #Paragraph3
+    {
+        position: absolute;
+  
+        color: purple;
+
+        right: 10px;
+        top: 1210px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph3:hover
+    {
+        color: violet;
+        font-size: 25.1px;
+    }
+
+    #Paragraph4
+    {
+        position: absolute;
+ 
+        color: purple;
+
+        right: 10px;
+        top: 1640px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 23px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph4:hover
+    {
+        color: violet;
+        font-size: 23.5px;
+    }
+   
+
+    #Image1
+    {
+        position: absolute;
+
+        right: 58px;
+        top: 430px;
+    } 
+
+    .Image11
+    {
+        height: 400px;
+        transition: 0.6s ease;
+    }
+
+    .Image11:hover 
+    {
+        height: 410px;
+    }
+
+
+}
+
+@media only screen and (min-width: 1920px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 450px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 1919px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 1590px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 525px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 828px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Your\ Journey\ begins.png);
+        background-size: 210px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        background-position-x: -5px;
+        background-size: 160px;
+        background-image: url(Futaba4.jpg);
+    }
+
+    #Header1
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 40px;
+        right: 210px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #Header1:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+    #Header2
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header2:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+    #Header3
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 860px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header3:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+
+    #Header4
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1150px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header4:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+    #Header5
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1590px;
+        left: 67px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header5:hover
+    {
+        color: violet;
+        font-size: 32px;
+    }
+
+   
+    #Paragraph1
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 160px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph1:hover
+    {
+        color: violet;
+        font-size: 25.5px;
+    }
+
+    #Paragraph2
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 910px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph2:hover
+    {
+        color: violet;
+        font-size: 25.2px;
+    }
+
+    #Paragraph3
+    {
+        position: absolute;
+  
+        color: purple;
+
+        right: 10px;
+        top: 1210px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph3:hover
+    {
+        color: violet;
+        font-size: 25.1px;
+    }
+
+    #Paragraph4
+    {
+        position: absolute;
+ 
+        color: purple;
+
+        right: 10px;
+        top: 1640px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 23px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph4:hover
+    {
+        color: violet;
+        font-size: 23.5px;
+    }
+   
+
+    #Image1
+    {
+        position: absolute;
+
+        right: 58px;
+        top: 430px;
+    } 
+
+    .Image11
+    {
+        height: 400px;
+        transition: 0.6s ease;
+    }
+
+    .Image11:hover 
+    {
+        height: 410px;
+    }
+
+
+}
+
+/*1440p Resoultion*/
+@media only screen and (min-width: 1924px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 1280px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 2559px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 1690px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 525px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 1438px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Your\ Journey\ begins.png);
+        background-size: 210px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        background-position-x: -5px;
+        background-size: 160px;
+        background-image: url(Futaba4.jpg);
+    }
+
+    #Header1
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 60px;
+        right: 490px;
+
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #Header1:hover
+    {
+        color: violet;
+        font-size: 52px;
+    }
+
+    #Header2
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 130px;
+        left: 75px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header2:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+    #Header3
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 870px;
+        left: 67px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header3:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+
+    #Header4
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1150px;
+        left: 67px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header4:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+    #Header5
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1530px;
+        left: 67px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header5:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+   
+    #Paragraph1
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 160px;
+
+        text-align: center;
+
+        padding-left: 20px;
+
+        font-size: 29px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph1:hover
+    {
+        color: violet;
+        font-size: 29.1px;
+    }
+
+    #Paragraph2
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 910px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph2:hover
+    {
+        color: violet;
+        font-size: 32.1px;
+    }
+
+    #Paragraph3
+    {
+        position: absolute;
+  
+        color: purple;
+
+        right: 10px;
+        top: 1210px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 29px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph3:hover
+    {
+        color: violet;
+        font-size: 29.1px;
+    }
+
+    #Paragraph4
+    {
+        position: absolute;
+ 
+        color: purple;
+
+        right: 10px;
+        top: 1570px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph4:hover
+    {
+        color: violet;
+        font-size: 23.5px;
+    }
+   
+
+    #Image1
+    {
+        position: absolute;
+
+        right: 58px;
+        top: 370px;
+    } 
+
+    .Image11
+    {
+        height: 480px;
+        width: 1320px;
+        transition: 0.6s ease;
+    }
+
+    .Image11:hover 
+    {
+        height: 410px;
+    }
+
+
+}
+
+@media only screen and (min-width: 2560px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 1280px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 2559px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 1690px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 525px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 1438px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Your\ Journey\ begins.png);
+        background-size: 210px;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        background-position-x: -5px;
+        background-size: 160px;
+        background-image: url(Futaba4.jpg);
+    }
+
+    #Header1
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 60px;
+        right: 490px;
+
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #Header1:hover
+    {
+        color: violet;
+        font-size: 52px;
+    }
+
+    #Header2
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 130px;
+        left: 75px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header2:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+    #Header3
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 870px;
+        left: 67px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header3:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+
+    #Header4
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1150px;
+        left: 67px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header4:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+    #Header5
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 1530px;
+        left: 67px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #Header5:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+
+   
+    #Paragraph1
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 160px;
+
+        text-align: center;
+
+        padding-left: 20px;
+
+        font-size: 29px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph1:hover
+    {
+        color: violet;
+        font-size: 29.1px;
+    }
+
+    #Paragraph2
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 910px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph2:hover
+    {
+        color: violet;
+        font-size: 32.1px;
+    }
+
+    #Paragraph3
+    {
+        position: absolute;
+  
+        color: purple;
+
+        right: 10px;
+        top: 1210px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 29px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph3:hover
+    {
+        color: violet;
+        font-size: 29.1px;
+    }
+
+    #Paragraph4
+    {
+        position: absolute;
+ 
+        color: purple;
+
+        right: 10px;
+        top: 1570px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 32px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #Paragraph4:hover
+    {
+        color: violet;
+        font-size: 23.5px;
+    }
+   
+
+    #Image1
+    {
+        position: absolute;
+
+        right: 58px;
+        top: 370px;
+    } 
+
+    .Image11
+    {
+        height: 480px;
+        width: 1320px;
+        transition: 0.6s ease;
+    }
+
+    .Image11:hover 
+    {
+        height: 410px;
+    }
+
+
+}

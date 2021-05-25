@@ -1,0 +1,10843 @@
+
+    /* rgba(0,0,0,0.8);  or 0.918*/ /*Default shade for transparency to use 
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        When configuring for sites the resolution is flipped, main first, second value last
+    
+    */
+    
+
+
+/*Mobile Resolutions*/
+@media only screen and (max-device-width: 831px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 280px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 1442px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 20px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 0px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 1438px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .Next /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 30px;
+        right: 510px;
+
+        color: violet;
+        font-size: 40px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 40px;
+
+        top: 30px;
+        right: 910px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Next2 /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 40px;
+        right: 580px;
+
+        color: violet;
+        font-size: 30px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev2
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 30px;
+
+        top: 40px;
+        right: 840px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev2:hover, .Next2:hover
+    {
+        color: violet;
+        font-size: 40px;
+    }
+
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic:hover 
+    {
+        height: 140px;
+    }
+
+    
+    #Python3
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic:hover 
+    {
+        height: 140px;
+    }
+
+    #Linux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic:hover 
+    {
+        height: 170px;
+    }
+
+
+    #LinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic:hover 
+    {
+        height: 180px;
+    }
+
+    
+    #GrayHatPython3
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython:hover
+    {
+        height: 180px;
+    }
+
+
+    #KaliLinux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle:hover
+    {
+        height: 180px;
+    }
+
+    #BundleDescriptiontest
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+    .FutabaLogo2
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo2:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources11:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp11
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic11
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic11:hover 
+    {
+        height: 140px;
+    }
+
+    
+    #Python311
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic11
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic11:hover 
+    {
+        height: 140px;
+    }
+
+    #Linux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic11:hover 
+    {
+        height: 170px;
+    }
+
+
+    #LinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription11
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription11:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+
+
+    #CyberResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources11:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp11
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic11:hover 
+    {
+        height: 180px;
+    }
+
+    
+    #GrayHatPython311
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython11:hover
+    {
+        height: 180px;
+    }
+
+
+    #KaliLinux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle11:hover
+    {
+        height: 180px;
+    }
+
+    #BundleDescriptiontest11
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest11:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+    .FutabaLogo3
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo3:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources111:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic111
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic111:hover 
+    {
+        height: 140px;
+    }
+
+    
+    #Python3111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic111
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic111:hover 
+    {
+        height: 140px;
+    }
+
+    #Linux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic111:hover 
+    {
+        height: 170px;
+    }
+
+
+    #LinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription111
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription111:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+
+
+    #CyberResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources111:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic111:hover 
+    {
+        height: 180px;
+    }
+
+    
+    #GrayHatPython3111
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython111:hover
+    {
+        height: 180px;
+    }
+
+
+    #KaliLinux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle111:hover
+    {
+        height: 180px;
+    }
+
+    #BundleDescriptiontest111
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest111:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+    .FutabaLogo4
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo4:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources1111:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp1111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic1111
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic1111:hover 
+    {
+        height: 140px;
+    }
+
+    
+    #Python31111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic1111
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic1111:hover 
+    {
+        height: 140px;
+    }
+
+    #Linux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic1111:hover 
+    {
+        height: 170px;
+    }
+
+
+    #LinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription1111
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription1111:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+
+
+    #CyberResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources1111:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp1111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic1111:hover 
+    {
+        height: 180px;
+    }
+
+    
+    #GrayHatPython31111
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython1111:hover
+    {
+        height: 180px;
+    }
+
+
+    #KaliLinux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle1111:hover
+    {
+        height: 180px;
+    }
+
+    #BundleDescriptiontest1111
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest1111:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+    
+
+
+
+}
+
+
+/*DeskTop Resolutions*/
+@media only screen and (min-width: 852px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 280px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 1442px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 20px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 0px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 1438px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .Next /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 30px;
+        right: 510px;
+
+        color: violet;
+        font-size: 40px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 40px;
+
+        top: 30px;
+        right: 910px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Next2 /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 40px;
+        right: 580px;
+
+        color: violet;
+        font-size: 30px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev2
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 30px;
+
+        top: 40px;
+        right: 840px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev2:hover, .Next2:hover
+    {
+        color: violet;
+        font-size: 40px;
+    }
+
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic:hover 
+    {
+        height: 140px;
+    }
+
+    
+    #Python3
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic:hover 
+    {
+        height: 140px;
+    }
+
+    #Linux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic:hover 
+    {
+        height: 170px;
+    }
+
+
+    #LinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic:hover 
+    {
+        height: 180px;
+    }
+
+    
+    #GrayHatPython3
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython:hover
+    {
+        height: 180px;
+    }
+
+
+    #KaliLinux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle:hover
+    {
+        height: 180px;
+    }
+
+    #BundleDescriptiontest
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+    .FutabaLogo2
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo2:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources11:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp11
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic11
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic11:hover 
+    {
+        height: 140px;
+    }
+
+    
+    #Python311
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic11
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic11:hover 
+    {
+        height: 140px;
+    }
+
+    #Linux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic11:hover 
+    {
+        height: 170px;
+    }
+
+
+    #LinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription11
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription11:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+
+
+    #CyberResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources11:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp11
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic11:hover 
+    {
+        height: 180px;
+    }
+
+    
+    #GrayHatPython311
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython11:hover
+    {
+        height: 180px;
+    }
+
+
+    #KaliLinux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle11:hover
+    {
+        height: 180px;
+    }
+
+    #BundleDescriptiontest11
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest11:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+    .FutabaLogo3
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo3:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources111:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic111
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic111:hover 
+    {
+        height: 140px;
+    }
+
+    
+    #Python3111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic111
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic111:hover 
+    {
+        height: 140px;
+    }
+
+    #Linux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic111:hover 
+    {
+        height: 170px;
+    }
+
+
+    #LinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription111
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription111:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+
+
+    #CyberResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources111:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic111:hover 
+    {
+        height: 180px;
+    }
+
+    
+    #GrayHatPython3111
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython111:hover
+    {
+        height: 180px;
+    }
+
+
+    #KaliLinux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle111:hover
+    {
+        height: 180px;
+    }
+
+    #BundleDescriptiontest111
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest111:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+    .FutabaLogo4
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo4:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources1111:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp1111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic1111
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic1111:hover 
+    {
+        height: 140px;
+    }
+
+    
+    #Python31111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic1111
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic1111:hover 
+    {
+        height: 140px;
+    }
+
+    #Linux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic1111:hover 
+    {
+        height: 170px;
+    }
+
+
+    #LinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription1111
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription1111:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+
+
+
+
+    #CyberResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources1111:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp1111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic1111:hover 
+    {
+        height: 180px;
+    }
+
+    
+    #GrayHatPython31111
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython1111:hover
+    {
+        height: 180px;
+    }
+
+
+    #KaliLinux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle1111:hover
+    {
+        height: 180px;
+    }
+
+    #BundleDescriptiontest1111
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest1111:hover
+    {
+        color: violet;
+        font-size: 23.4px;
+    }
+    
+
+
+
+}
+
+
+@media only screen and (min-width: 1280px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 400px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 1519px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 100px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 335px;
+        top: 115px;
+
+        padding-top: 1130px;
+        padding-left: 828px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .Next /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 30px;
+        right: 600px;
+
+        color: violet;
+        font-size: 40px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 40px;
+
+        top: 30px;
+        right: 900px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev:hover, .Next:hover
+    {
+        color: violet;
+        font-size: 45px;
+    } 
+
+
+    .Next2 /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 40px;
+        right: 650px;
+
+        color: violet;
+        font-size: 30px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev2
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 30px;
+
+        top: 40px;
+        right: 850px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev2:hover, .Next2:hover
+    {
+        color: violet;
+        font-size: 35px;
+    }
+
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 235px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources:hover
+    {
+        color: violet;
+        font-size: 31px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 180px;
+    }
+
+    #CppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .CppPic:hover 
+    {
+        height: 130px;
+    }
+
+    
+    #Python3
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 50px;
+        top: 180px;
+    }
+
+    #PythonTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .PythonPic:hover 
+    {
+        height: 130px;
+    }
+
+    #Linux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic
+    {
+        height: 140px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic:hover 
+    {
+        height: 150px;
+    }
+
+
+    #LinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 317px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 640px;
+    }
+
+    #GrayHatCppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic
+    {
+        height: 160px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic:hover 
+    {
+        height: 170px;
+    }
+
+    
+    #GrayHatPython3
+    {
+        position: absolute;
+
+        right: 50px;
+        top: 640px;
+    }
+
+    #GrayHatPython3Title
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython:hover
+    {
+        height: 160px;
+    }
+
+
+    #KaliLinux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 640px;
+    }
+
+    #KaliLinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 305px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle:hover
+    {
+        height: 160px;
+    }
+
+    #BundleDescriptiontest
+    {
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0);
+
+        color: purple;
+
+        right: 10px;
+        top: 840px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+    .FutabaLogo2
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo2:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 235px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources11:hover
+    {
+        color: violet;
+        font-size: 31px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp11
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 180px;
+    }
+
+    #CppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic11
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .CppPic11:hover 
+    {
+        height: 130px;
+    }
+
+    
+    #Python311
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 50px;
+        top: 180px;
+    }
+
+    #PythonTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic11
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .PythonPic11:hover 
+    {
+        height: 130px;
+    }
+
+    #Linux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic11
+    {
+        height: 140px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic11:hover 
+    {
+        height: 150px;
+    }
+
+
+    #LinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 317px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription11
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription11:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp11
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 640px;
+    }
+
+    #GrayHatCppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic11
+    {
+        height: 160px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic11:hover 
+    {
+        height: 170px;
+    }
+
+    
+    #GrayHatPython311
+    {
+        position: absolute;
+
+        right: 50px;
+        top: 640px;
+    }
+
+    #GrayHatPython3Title11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython11
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython11:hover
+    {
+        height: 160px;
+    }
+
+
+    #KaliLinux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 640px;
+    }
+
+    #KaliLinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 305px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle11
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle11:hover
+    {
+        height: 160px;
+    }
+
+    #BundleDescriptiontest11
+    {
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0);
+
+        color: purple;
+
+        right: 10px;
+        top: 840px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest11:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+    .FutabaLogo3
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo3:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 235px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources111:hover
+    {
+        color: violet;
+        font-size: 31px;
+    }
+    
+    #ProgrammingResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp111
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 180px;
+    }
+
+    #CppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic111
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .CppPic111:hover 
+    {
+        height: 130px;
+    }
+
+    
+    #Python3111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 50px;
+        top: 180px;
+    }
+
+    #PythonTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic111
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .PythonPic111:hover 
+    {
+        height: 130px;
+    }
+
+    #Linux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic111
+    {
+        height: 140px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic111:hover 
+    {
+        height: 150px;
+    }
+
+
+    #LinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 317px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription111
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription111:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp111
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 640px;
+    }
+
+    #GrayHatCppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic111
+    {
+        height: 160px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic111:hover 
+    {
+        height: 170px;
+    }
+
+    
+    #GrayHatPython3111
+    {
+        position: absolute;
+
+        right: 50px;
+        top: 640px;
+    }
+
+    #GrayHatPython3Title111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython111
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython111:hover
+    {
+        height: 160px;
+    }
+
+
+    #KaliLinux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 640px;
+    }
+
+    #KaliLinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 305px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle111
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle111:hover
+    {
+        height: 160px;
+    }
+
+    #BundleDescriptiontest111
+    {
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0);
+
+        color: purple;
+
+        right: 10px;
+        top: 840px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest111:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+    .FutabaLogo4
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo4:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 235px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources1111:hover
+    {
+        color: violet;
+        font-size: 31px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp1111
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 180px;
+    }
+
+    #CppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic1111
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .CppPic1111:hover 
+    {
+        height: 130px;
+    }
+
+    
+    #Python31111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 50px;
+        top: 180px;
+    }
+
+    #PythonTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic1111
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .PythonPic1111:hover 
+    {
+        height: 130px;
+    }
+
+    #Linux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic1111
+    {
+        height: 140px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic1111:hover 
+    {
+        height: 150px;
+    }
+
+
+    #LinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 317px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription1111:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp1111
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 640px;
+    }
+
+    #GrayHatCppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic1111
+    {
+        height: 160px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic1111:hover 
+    {
+        height: 170px;
+    }
+
+    
+    #GrayHatPython31111
+    {
+        position: absolute;
+
+        right: 50px;
+        top: 640px;
+    }
+
+    #GrayHatPython3Title1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython1111
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython1111:hover
+    {
+        height: 160px;
+    }
+
+
+    #KaliLinux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 640px;
+    }
+
+    #KaliLinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 305px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle1111
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle1111:hover
+    {
+        height: 160px;
+    }
+
+    #BundleDescriptiontest1111
+    {
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0);
+
+        color: purple;
+
+        right: 10px;
+        top: 840px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest1111:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1920px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 450px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 1919px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 1590px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 525px;
+        top: 115px;
+
+        padding-top: 1130px;
+        padding-left: 828px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .Next /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 30px;
+        right: 730px;
+
+        color: violet;
+        font-size: 40px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 40px;
+
+        top: 30px;
+        right: 1200px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev:hover, .Next:hover
+    {
+        color: violet;
+        font-size: 45px;
+    } 
+
+
+    .Next2 /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 40px;
+        right: 820px;
+
+        color: violet;
+        font-size: 30px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev2
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 30px;
+
+        top: 40px;
+        right: 1111px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev2:hover, .Next2:hover
+    {
+        color: violet;
+        font-size: 35px;
+    }
+
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 235px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources:hover
+    {
+        color: violet;
+        font-size: 31px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 180px;
+    }
+
+    #CppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .CppPic:hover 
+    {
+        height: 130px;
+    }
+
+    
+    #Python3
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 50px;
+        top: 180px;
+    }
+
+    #PythonTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .PythonPic:hover 
+    {
+        height: 130px;
+    }
+
+    #Linux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic
+    {
+        height: 140px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic:hover 
+    {
+        height: 150px;
+    }
+
+
+    #LinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 317px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 640px;
+    }
+
+    #GrayHatCppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic
+    {
+        height: 160px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic:hover 
+    {
+        height: 170px;
+    }
+
+    
+    #GrayHatPython3
+    {
+        position: absolute;
+
+        right: 50px;
+        top: 640px;
+    }
+
+    #GrayHatPython3Title
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython:hover
+    {
+        height: 160px;
+    }
+
+
+    #KaliLinux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 640px;
+    }
+
+    #KaliLinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 305px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle:hover
+    {
+        height: 160px;
+    }
+
+    #BundleDescriptiontest
+    {
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0);
+
+        color: purple;
+
+        right: 10px;
+        top: 840px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+    .FutabaLogo2
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo2:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 235px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources11:hover
+    {
+        color: violet;
+        font-size: 31px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp11
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 180px;
+    }
+
+    #CppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic11
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .CppPic11:hover 
+    {
+        height: 130px;
+    }
+
+    
+    #Python311
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 50px;
+        top: 180px;
+    }
+
+    #PythonTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic11
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .PythonPic11:hover 
+    {
+        height: 130px;
+    }
+
+    #Linux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic11
+    {
+        height: 140px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic11:hover 
+    {
+        height: 150px;
+    }
+
+
+    #LinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 317px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription11
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription11:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp11
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 640px;
+    }
+
+    #GrayHatCppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic11
+    {
+        height: 160px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic11:hover 
+    {
+        height: 170px;
+    }
+
+    
+    #GrayHatPython311
+    {
+        position: absolute;
+
+        right: 50px;
+        top: 640px;
+    }
+
+    #GrayHatPython3Title11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython11
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython11:hover
+    {
+        height: 160px;
+    }
+
+
+    #KaliLinux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 640px;
+    }
+
+    #KaliLinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 305px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle11
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle11:hover
+    {
+        height: 160px;
+    }
+
+    #BundleDescriptiontest11
+    {
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0);
+
+        color: purple;
+
+        right: 10px;
+        top: 840px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest11:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+    .FutabaLogo3
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo3:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 235px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources111:hover
+    {
+        color: violet;
+        font-size: 31px;
+    }
+    
+    #ProgrammingResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp111
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 180px;
+    }
+
+    #CppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic111
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .CppPic111:hover 
+    {
+        height: 130px;
+    }
+
+    
+    #Python3111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 50px;
+        top: 180px;
+    }
+
+    #PythonTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic111
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .PythonPic111:hover 
+    {
+        height: 130px;
+    }
+
+    #Linux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic111
+    {
+        height: 140px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic111:hover 
+    {
+        height: 150px;
+    }
+
+
+    #LinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 317px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription111
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription111:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp111
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 640px;
+    }
+
+    #GrayHatCppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic111
+    {
+        height: 160px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic111:hover 
+    {
+        height: 170px;
+    }
+
+    
+    #GrayHatPython3111
+    {
+        position: absolute;
+
+        right: 50px;
+        top: 640px;
+    }
+
+    #GrayHatPython3Title111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython111
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython111:hover
+    {
+        height: 160px;
+    }
+
+
+    #KaliLinux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 640px;
+    }
+
+    #KaliLinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 305px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle111
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle111:hover
+    {
+        height: 160px;
+    }
+
+    #BundleDescriptiontest111
+    {
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0);
+
+        color: purple;
+
+        right: 10px;
+        top: 840px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest111:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+    .FutabaLogo4
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 345px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo4:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 235px;
+
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources1111:hover
+    {
+        color: violet;
+        font-size: 31px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp1111
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 180px;
+    }
+
+    #CppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .CppPic1111
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .CppPic1111:hover 
+    {
+        height: 130px;
+    }
+
+    
+    #Python31111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 50px;
+        top: 180px;
+    }
+
+    #PythonTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .PythonPic1111
+    {
+        height: 120px;
+        transition: 0.6s ease;
+    }
+    .PythonPic1111:hover 
+    {
+        height: 130px;
+    }
+
+    #Linux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic1111
+    {
+        height: 140px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic1111:hover 
+    {
+        height: 150px;
+    }
+
+
+    #LinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 317px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    
+    #BundleDescription1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        right: 10px;
+        top: 340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription1111:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp1111
+    {
+        position: absolute;
+
+        right: 550px;
+        top: 640px;
+    }
+
+    #GrayHatCppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 67px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .GrayCppPic1111
+    {
+        height: 160px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic1111:hover 
+    {
+        height: 170px;
+    }
+
+    
+    #GrayHatPython31111
+    {
+        position: absolute;
+
+        right: 50px;
+        top: 640px;
+    }
+
+    #GrayHatPython3Title1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 567px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .BlackHatPython1111
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython1111:hover
+    {
+        height: 160px;
+    }
+
+
+    #KaliLinux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 315px;
+        top: 640px;
+    }
+
+    #KaliLinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 580px;
+        left: 305px;
+
+        font-size: 21px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 22px;
+    }
+
+    .MasterBundle1111
+    {
+        height: 150px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle1111:hover
+    {
+        height: 160px;
+    }
+
+    #BundleDescriptiontest1111
+    {
+        position: absolute;
+
+        background-color: rgba(0, 0, 0, 0);
+
+        color: purple;
+
+        right: 10px;
+        top: 840px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 26px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest1111:hover
+    {
+        color: violet;
+        font-size: 26.1px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1924px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 1280px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 2559px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 1590px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 525px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 1438px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .Next /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 30px;
+        right: 1030px;
+
+        color: violet;
+        font-size: 40px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 40px;
+
+        top: 30px;
+        right: 1570px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev:hover, .Next:hover
+    {
+        color: violet;
+        font-size: 60px;
+    } 
+
+
+    .Next2 /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 40px;
+        right: 1150px;
+
+        color: violet;
+        font-size: 30px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev2
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 30px;
+
+        top: 40px;
+        right: 1450px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev2:hover, .Next2:hover
+    {
+        color: violet;
+        font-size: 40px;
+    }
+
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .CppPic
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic:hover 
+    {
+        height: 210px;
+    }
+
+    
+    #Python3
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .PythonPic
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic:hover 
+    {
+        height: 230px;
+    }
+
+    #Linux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic:hover 
+    {
+        height: 260px;
+    }
+
+
+    #LinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    
+    #BundleDescription
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription:hover
+    {
+        color: violet;
+        font-size: 45.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .GrayCppPic
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic:hover 
+    {
+        height: 260px;
+    }
+
+    
+    #GrayHatPython3
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .BlackHatPython
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython:hover
+    {
+        height: 260px;
+    }
+
+
+    #KaliLinux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .MasterBundle
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle:hover
+    {
+        height: 260px;
+    }
+
+    #BundleDescriptiontest
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest:hover
+    {
+        color: violet;
+        font-size: 40.1px;
+    }
+
+
+    .FutabaLogo2
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo2:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources11:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp11
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .CppPic11
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic11:hover 
+    {
+        height: 210px;
+    }
+
+    
+    #Python311
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle11:hover
+    {
+        color: violet;
+        font-size: 237x;
+    }
+
+    .PythonPic11
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic11:hover 
+    {
+        height: 230px;
+    }
+
+    #Linux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic11:hover 
+    {
+        height: 260px;
+    }
+
+
+    #LinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    
+    #BundleDescription11
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription11:hover
+    {
+        color: violet;
+        font-size: 45.1px;
+    }
+
+
+
+
+    #CyberResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources11:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp11
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .GrayCppPic11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic11:hover 
+    {
+        height: 260px;
+    }
+
+    
+    #GrayHatPython311
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .BlackHatPython11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython11:hover
+    {
+        height: 260px;
+    }
+
+
+    #KaliLinux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .MasterBundle11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle11:hover
+    {
+        height: 260px;
+    }
+
+    #BundleDescriptiontest11
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest11:hover
+    {
+        color: violet;
+        font-size: 40.1px;
+    }
+
+
+    .FutabaLogo3
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo3:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources111:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .CppPic111
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic111:hover 
+    {
+        height: 210px;
+    }
+
+    
+    #Python3111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .PythonPic111
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic111:hover 
+    {
+        height: 230px;
+    }
+
+    #Linux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic111:hover 
+    {
+        height: 260px;
+    }
+
+
+    #LinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    
+    #BundleDescription111
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription111:hover
+    {
+        color: violet;
+        font-size: 45.1px;
+    }
+
+
+
+
+    #CyberResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources111:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .GrayCppPic111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic111:hover 
+    {
+        height: 260px;
+    }
+
+    
+    #GrayHatPython3111
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .BlackHatPython111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython111:hover
+    {
+        height: 260px;
+    }
+
+
+    #KaliLinux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .MasterBundle111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle111:hover
+    {
+        height: 260px;
+    }
+
+    #BundleDescriptiontest111
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest111:hover
+    {
+        color: violet;
+        font-size: 40.1px;
+    }
+
+
+    .FutabaLogo4
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo4:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources1111:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp1111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .CppPic1111
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic1111:hover 
+    {
+        height: 210px;
+    }
+
+    
+    #Python31111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .PythonPic1111
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic1111:hover 
+    {
+        height: 230px;
+    }
+
+    #Linux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic1111:hover 
+    {
+        height: 260px;
+    }
+
+
+    #LinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    
+    #BundleDescription1111
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription1111:hover
+    {
+        color: violet;
+        font-size: 45.1px;
+    }
+
+
+
+
+    #CyberResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources1111:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp1111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .GrayCppPic1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic1111:hover 
+    {
+        height: 260px;
+    }
+
+    
+    #GrayHatPython31111
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .BlackHatPython1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython1111:hover
+    {
+        height: 260px;
+    }
+
+
+    #KaliLinux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .MasterBundle1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle1111:hover
+    {
+        height: 260px;
+    }
+
+    #BundleDescriptiontest1111
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest1111:hover
+    {
+        color: violet;
+        font-size: 40.1px;
+    }
+    
+
+
+
+}
+
+
+@media only screen and (min-width: 2560px)
+{
+    
+    body
+	{
+        background-image: url(PurpleRain3.gif);
+        background-repeat: repeat;
+    }
+
+    .wrapper
+	{
+		background-color: clear;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+
+    }
+
+    #MenuBar
+    {
+        background-image: url(Spider.jpg); 
+        background-position-y: 450px;
+        background-position-x: 1280px;
+
+        background-color: red;
+        
+
+        position: absolute;
+        top: 0.3px;
+        left: 0.2px;    
+        
+        padding-top: 115px;
+        padding-left: 2559px;
+
+    }
+
+    #FutabWebsHeader
+    {
+        position: absolute;
+
+        color: purple;
+
+        left: 1590px;
+        top: -10px;
+
+        font-size: 40px; 
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+
+    }
+
+    #FutabWebsHeader:hover
+    {
+        color: violet;
+        font-size: 41px;
+    }
+
+    /* Main center text field */  
+    .CenterTextBox
+    {
+        position: absolute;
+        
+        background-color: black;
+        border-style: solid;
+        border-radius: 20%;
+
+        /* background-color: gray; */
+
+        left: 525px;
+        top: 115px;
+
+        padding-top: 1930px;
+        padding-left: 1438px;
+
+	/* border-style: dashed;*/ 
+        
+    }
+
+       
+
+    .Next /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 30px;
+        right: 1030px;
+
+        color: violet;
+        font-size: 40px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 40px;
+
+        top: 30px;
+        right: 1570px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev:hover, .Next:hover
+    {
+        color: violet;
+        font-size: 60px;
+    } 
+
+
+    .Next2 /*THis is actually the left arrow */
+    {
+        position: absolute;
+        cursor: pointer;
+
+        top: 40px;
+        right: 1150px;
+
+        color: violet;
+        font-size: 30px;
+
+        transition:  0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+
+    .Prev2
+    {
+        position: absolute;
+
+        cursor: pointer;
+
+        color: violet;
+        font-size: 30px;
+
+        top: 40px;
+        right: 1450px;
+
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+    }
+
+    .Prev2:hover, .Next2:hover
+    {
+        color: violet;
+        font-size: 40px;
+    }
+
+
+    .FutabaLogo
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .CppPic
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic:hover 
+    {
+        height: 210px;
+    }
+
+    
+    #Python3
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .PythonPic
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic:hover 
+    {
+        height: 230px;
+    }
+
+    #Linux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic:hover 
+    {
+        height: 260px;
+    }
+
+
+    #LinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    
+    #BundleDescription
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription:hover
+    {
+        color: violet;
+        font-size: 45.1px;
+    }
+
+
+
+
+    #CyberResources
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .GrayCppPic
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic:hover 
+    {
+        height: 260px;
+    }
+
+    
+    #GrayHatPython3
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .BlackHatPython
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython:hover
+    {
+        height: 260px;
+    }
+
+
+    #KaliLinux
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .MasterBundle
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle:hover
+    {
+        height: 260px;
+    }
+
+    #BundleDescriptiontest
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest:hover
+    {
+        color: violet;
+        font-size: 40.1px;
+    }
+
+
+    .FutabaLogo2
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo2:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources11:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp11
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .CppPic11
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic11:hover 
+    {
+        height: 210px;
+    }
+
+    
+    #Python311
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle11:hover
+    {
+        color: violet;
+        font-size: 237x;
+    }
+
+    .PythonPic11
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic11:hover 
+    {
+        height: 230px;
+    }
+
+    #Linux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic11:hover 
+    {
+        height: 260px;
+    }
+
+
+    #LinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    
+    #BundleDescription11
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription11:hover
+    {
+        color: violet;
+        font-size: 45.1px;
+    }
+
+
+
+
+    #CyberResources11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources11:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp11
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .GrayCppPic11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic11:hover 
+    {
+        height: 260px;
+    }
+
+    
+    #GrayHatPython311
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .BlackHatPython11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython11:hover
+    {
+        height: 260px;
+    }
+
+
+    #KaliLinux11
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle11
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle11:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .MasterBundle11
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle11:hover
+    {
+        height: 260px;
+    }
+
+    #BundleDescriptiontest11
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest11:hover
+    {
+        color: violet;
+        font-size: 40.1px;
+    }
+
+
+    .FutabaLogo3
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo3:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources111:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .CppPic111
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic111:hover 
+    {
+        height: 210px;
+    }
+
+    
+    #Python3111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .PythonPic111
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic111:hover 
+    {
+        height: 230px;
+    }
+
+    #Linux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic111:hover 
+    {
+        height: 260px;
+    }
+
+
+    #LinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    
+    #BundleDescription111
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription111:hover
+    {
+        color: violet;
+        font-size: 45.1px;
+    }
+
+
+
+
+    #CyberResources111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources111:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .GrayCppPic111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic111:hover 
+    {
+        height: 260px;
+    }
+
+    
+    #GrayHatPython3111
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .BlackHatPython111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython111:hover
+    {
+        height: 260px;
+    }
+
+
+    #KaliLinux111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .MasterBundle111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle111:hover
+    {
+        height: 260px;
+    }
+
+    #BundleDescriptiontest111
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest111:hover
+    {
+        color: violet;
+        font-size: 40.1px;
+    }
+
+
+    .FutabaLogo4
+    {   
+
+        position: absolute;
+
+        background-image: url(Welcome.jpg);
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        left: 645px;
+        top: -113px;
+
+        cursor: pointer;
+        height: 150px;
+        width: 150px;
+        margin: 0 2px;
+        background-color: purple;
+        border-radius: 50%;
+        display: inline-block;
+        transition: 0.1s ease;
+    }
+
+    .FutabaLogo4:hover
+    {
+        height: 150px;
+        width: 150px;
+        background-position-x: 0px;
+        background-size: 160px;
+        background-image: url(Futaba5.jpg);
+        background-size: 300px;
+        background-position-x: -70px;
+    }
+
+    #ProgrammingResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        /* font-weight: bold; */
+
+        top: 50px;
+        right: 480px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+        
+    }
+
+    #ProgrammingResources1111:hover
+    {
+        color: violet;
+        font-size: 42px;
+    }
+    
+    #ProgrammingResourcesLine1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 50px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #Cpp1111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 180px;
+    }
+
+    #CppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CppTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .CppPic1111
+    {
+        height: 200px;
+        transition: 0.6s ease;
+    }
+    .CppPic1111:hover 
+    {
+        height: 210px;
+    }
+
+    
+    #Python31111
+    {
+        position: absolute;
+
+        border-style: dashed;
+
+        right: 70px;
+        top: 180px;
+    }
+
+    #PythonTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 1005px;
+        
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+    #PythonTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .PythonPic1111
+    {
+        height: 220px;
+        transition: 0.6s ease;
+    }
+    .PythonPic1111:hover 
+    {
+        height: 230px;
+    }
+
+    #Linux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 180px;
+
+
+    }
+
+    .LinuxPic1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .LinuxPic1111:hover 
+    {
+        height: 260px;
+    }
+
+
+    #LinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 110px;
+        left: 575px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition:  0.6s ease;
+
+    }
+
+    #LinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    
+    #BundleDescription1111
+    {
+        position: absolute;
+        
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 490px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        transition: 0.6s ease;
+    }
+
+    #BundleDescription1111:hover
+    {
+        color: violet;
+        font-size: 45.1px;
+    }
+
+
+
+
+    #CyberResources1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 470px;
+        right: 250px;
+
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #CyberResources1111:hover
+    {
+        color: violet;
+        font-size: 26px;
+    }
+    
+    #CyberResourcesLine
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 480px;
+        right: 175px;
+
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #GrayHatCpp1111
+    {
+        position: absolute;
+
+        right: 980px;
+        top: 980px;
+    }
+
+    #GrayHatCppTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 127px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatCppTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .GrayCppPic1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    .GrayCppPic1111:hover 
+    {
+        height: 260px;
+    }
+
+    
+    #GrayHatPython31111
+    {
+        position: absolute;
+
+        right: 70px;
+        top: 980px;
+    }
+
+    #GrayHatPython3Title1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 1005px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #GrayHatPython3Title1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .BlackHatPython1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .BlackHatPython1111:hover
+    {
+        height: 260px;
+    }
+
+
+    #KaliLinux1111
+    {
+        position: absolute;
+
+        height: 10px;
+
+        right: 545px;
+        top: 980px;
+    }
+
+    #KaliLinuxTitle1111
+    {
+        position: absolute;
+
+        color: purple;
+
+        top: 900px;
+        left: 555px;
+
+        font-size: 35px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #KaliLinuxTitle1111:hover
+    {
+        color: violet;
+        font-size: 37px;
+    }
+
+    .MasterBundle1111
+    {
+        height: 250px;
+        transition: 0.6s ease;
+    }
+    
+    .MasterBundle1111:hover
+    {
+        height: 260px;
+    }
+
+    #BundleDescriptiontest1111
+    {
+        position: absolute;
+
+        background-color: black;
+
+        color: purple;
+
+        right: 10px;
+        top: 1340px;
+
+        text-align: center;
+
+        padding-left: 10px;
+
+        font-size: 40px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        transition: 0.6s ease;
+    }
+
+    #BundleDescriptiontest1111:hover
+    {
+        color: violet;
+        font-size: 40.1px;
+    }
+    
+
+
+
+}
